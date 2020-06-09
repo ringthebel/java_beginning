@@ -5,16 +5,16 @@ public class SplitExample {
         for (String w : s1.split(",")) {
             System.out.println(w);
         }
-//        for (String w : s1.split("\\s", 2)) {
-//            System.out.println(w);
-//        }
-//        System.out.println("returning words:");
-//        for (String w : s1.split("\\s", 1)) {
-//            System.out.println(w);
-//        }
-//        System.out.println("returning words:");
-//        for (String w : s1.split("\\s", 2)) {
-//            System.out.println(w);
-//        }
+        for (String w : s1.split("\\s", 2)) {
+            System.out.println(w);
+        }
+        System.out.println("returning words:");
+        for (String w : s1.split("\\s", 1)) {
+            System.out.println(w);
+        }
+        System.out.println("returning words:");
+        for (String w : s1.split("\\s", 2)) {
+            System.out.println(w);
+        }
     }
 }
