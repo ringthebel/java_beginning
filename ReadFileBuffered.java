@@ -5,6 +5,7 @@ import java.io.IOException;
 
 public class ReadFileBuffered {
     public static void main(String[] args) throws FileNotFoundException {
+//read file with BufferedReader
         BufferedReader csvReader = new BufferedReader(new FileReader("/home/ngocmai/vnpt/code/ActivePercent/test/data/bike-data/201508_station_data.csv"));
         String answer;
         try{
