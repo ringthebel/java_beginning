@@ -175,8 +175,6 @@ public class Streamming {
         List<String> sorted = Stream.of("a", "z", "b", "c").sorted().collect(Collectors.toList());
 //        khong co thu vien ho tro sap xep giam dan, chi co the sap xep tang dan roi dao chieu
 //        Set<String> sortedSet = Stream.of("a", "z", "b", "c").sorted(Collections.reverseOrder()).collect(Collectors.toSet());
-//        List<String> sortedSet = reverse(sorted);;
-//        System.out.println(sorted + "\n" + sortedSet);
     }
     private static void invertExample(){
         String s = "tst";
