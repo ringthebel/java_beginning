@@ -20,10 +20,10 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 public class Streamming {
     public static void main(String[] args){
-//        mapExamples();
-//        invertExample();
-//        filterExample();
-//        aggregatingOperationExample();
+        mapExamples();
+        invertExample();
+        filterExample();
+        aggregatingOperationExample();
         moreFunnyExample();
     }
     public static void mapExamples(){
